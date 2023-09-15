@@ -1,0 +1,892 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+html {
+    font-size: 1rem;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 18rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1rem 5rem rgba(0,0,0, .1);
+}
+
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+
+.navbar-top div {
+    margin: 0 4rem;
+}
+
+
+.mainlogo {
+    display: flex;
+    align-items: center;
+}
+
+
+.mainlogo i {
+    font-size: 5rem;
+    color: #9D9D9D;
+    margin-right: 2rem;
+}
+
+
+.mainlogo span {
+    font-family: 'Kenia', cursive;
+    font-size: 2.3rem;
+    letter-spacing: .9rem;
+    color: #9D9D9D;
+}
+
+
+.search-bar {
+    position: relative;
+}
+
+
+.search-bar input {
+    width: 15rem;
+    padding: 1.2rem 1.4rem 1.2rem 3rem;
+    background-color: #FAF8F1;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #1C315E;
+}
+
+
+.search-bar input::placeholder {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #1C315E;
+}
+
+
+.search-bar i {
+    position: absolute;
+    top: 50%;
+    left: 1.4rem;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    color:#1C315E;
+    
+}
+
+
+.klient {
+    font-size: 1rem;
+    color: #1C315E;
+}
+
+
+.nav-list {
+    display: flex;
+    height: 8.5rem;
+    padding-top: 2rem;
+}
+
+
+.nav-list div {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: .1rem solid #E4DCCF;
+    cursor: pointer;
+}
+
+
+.nav-list div:nth-child(1) {
+    border: none;
+}
+
+
+.nav-list i {
+    font-size: 2rem;
+    color:#9D9D9D;
+    margin-bottom: 1rem;
+}
+
+
+.nav-list span {
+    font-size: 1rem;
+    color: #1C315E;
+}
+
+
+.maincontent {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+
+.maincontent-bg {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 65rem;
+    background-color: #ffffff;
+    border-radius: 3rem;
+}
+
+
+.graphelement {
+    width: 95%;
+    height: 45rem;
+    position: absolute;
+    top: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.graohelement-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+    opacity: .8;
+}
+
+
+.graphelement-mainzagolovok {
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+    font-size: 3.5rem;
+    color: #9D9D9D;
+    text-align: right;
+    text-shadow: 0 2rem 2rem rgba(0,0,0, .1);
+}
+
+
+.graphelement-btn {
+    position: absolute;
+    top: 15rem;
+    width: 17rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 3s;
+}
+
+
+.graphelement-btn-1 {
+    right: 25rem;
+    background-color: #D0C9C0;
+    color: #141E27;
+}
+
+
+.graphelement-btn-1:hover {
+    background-color: #ffffff;
+    color:#141E27;
+}
+
+.graphelement-btn-2 {
+    right: 5rem;
+    background-color: #D0C9C0;
+    color: #141E27;
+}
+
+.graphelement-btn-2:hover {
+    background-color: #ffffff;
+    color:#141E27;
+}
+
+
+.interiorprimer {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.8rem;
+}
+
+
+.primer-top {
+    width: 60%;
+    margin-bottom: 11rem;
+}
+
+
+.primery-icons {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.primery-icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    height: 20rem;
+    margin-right: 1rem;
+    background-color: #9D9D9D;
+    padding: 5rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+
+.primery-icons div:hover {
+    background-color: #ffffff;
+    box-shadow: 0 1rem 3rem rgba(0,0,0, .1);
+}
+
+
+
+.primery-icons div:last-child {
+     margin-right: 0;
+}
+
+
+.primery-icons div img {
+    margin-bottom: 3rem;
+}
+
+
+.primery-icons div span {
+    font-size: 1rem;
+}
+
+
+.interiordesign {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+
+.interiordesign-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+
+.interiordesign-top img {
+    margin-right: 3rem;
+}
+
+
+.interiordesign-top h2 {
+    font-size: 3rem;
+    color: #9D9D9D;
+    width: 50rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+
+.interiordesign-top button, .vybor-knopka {
+    width: 17rem;
+    height: 4rem;
+    background-color: #D0C9C0;
+    border: .1rem solid #141E27;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    color:#141E27;
+    cursor: pointer;
+
+}
+
+
+.interiordesign-cards {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+
+.interior-card {
+    width: 30rem;
+    height: 50rem;
+    background-color: #f7f7f7;
+    margin: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.img-wrapper {
+    width: 30rem;
+    height: 32rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.interior-card h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: #9D9D9D;
+}
+
+
+.interior-card h4 {
+    font-size: 1.2rem;
+    color: #141E27
+}
+
+
+.interior-card-pic {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+
+.interior-card-pic i {
+    width: 2rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transform: translateY(1rem);
+    transition: all .2s;
+
+}
+
+
+.interior-card:hover .interior-card-pic i {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+.infoblock {
+    width: 100%;
+    height: 80vh;
+    background-color: #9D9D9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.infocontent {
+    width: 80%;
+    height: 40rem;
+    background-color: #f7f7f7;
+    border-radius: 3rem;
+}
+
+
+.infoblock-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.infoblock-top img {
+    margin-top: 5rem;
+    width: 350px;
+    height: 200px;
+}
+
+
+.zametki h2 {
+    font-size: 2.5rem;
+    width: 35rem;
+    line-height: 1;
+    color: #9D9D9D;
+    margin-bottom: 2rem;
+
+}
+
+
+.zametki button {
+    width: 25rem;
+    height: 3rem;
+    background-color: #D0C9C0;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.infoblock-zametki {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+.infoblock-zametki ul li {
+    list-style: none;
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 2;
+    cursor: pointer;
+}
+
+
+.maincontactforma {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactforma-podrobnosti {
+    width: 50%;
+    height: 15rem;
+    display: flex;
+}
+
+
+.podrobnosti-left {
+    width: 50%;
+    height: 100%;
+    background-color: #f7f7f7;
+    border-radius: 2rem 0 0 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+
+.podrobnosti-left h2 {
+    width: 85%;
+    font-size: 2.5rem;
+    color: #D0C9C0;
+    line-height: 1.4;
+}
+
+
+.podrobnosti-right {
+    width: 65%;
+    height: 100%;
+    background-color:#D0C9C0;
+    border-radius: 0 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.podrobnosti-right input {
+    width: 20rem;
+    height: 3.5rem;
+    background-color: #FAF8F1;
+    padding: 2rem;
+    border: none;
+    border: .5rem;
+    margin-right: 1rem;
+}
+
+
+.podrobnosti-right input::placeholder {
+    color:#141E27;
+    font-size: .8rem;
+}
+
+
+.podrobnosti-right input:focus {
+    border: .1rem solid #D0C9C0;
+}
+
+
+.podrobnosti-right button {
+    width: 10rem;
+    height: 4rem;
+    background-color: #D0C9C0;
+    border-radius: 3rem;
+    font-size: 1rem;
+    color: #141E27;
+    cursor: pointer;
+}
+
+
+.podval {
+    width: 50%;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: .1rem solid #cccccc;
+}
+
+
+.copyright {
+    font: 1.8rem;
+    color: #9D9D9D;
+}
+
+
+.orgbrand {
+    display: flex;
+    align-items: center;
+}
+
+
+.orgbrand i {
+    font-size: 2rem;
+    color:#9D9D9D;
+    margin-right: 1.5rem;
+}
+
+
+.orgbrand h2 {
+    font-family: 'Kenia', cursive;
+    font-size: 2rem;
+    color:#9D9D9D;
+    letter-spacing: .3rem;
+}
+
+
+
+@media(max-width:1600px) {
+    .mainlogo {
+        width: 70%;
+    }
+
+
+    .nav-list {
+        width: 70%;
+    }
+
+
+    .graphelement {
+        width: 70%;
+    }
+
+    .interiorprimer {
+        padding-top: 10rem;
+        height: 100vh;
+    }
+
+    .primer-top {
+        width: 70%;
+    }
+
+    .primery-icons {
+        width: 70%;
+    }
+
+    .interiordesign-cards {
+        width: 70%;
+    }
+
+
+    .interior-card {
+        width: 70%;
+    }
+
+    .infocontent {
+        width: 70%;
+    }
+
+    .contactforma-podrobnosti {
+        width: 70%;
+    }
+
+    .podval {
+        width: 70%;
+    }
+}
+
+
+@media(max-width:1400px) {
+    html {
+        font-size: 54%;
+    }
+
+    .interiordesign-top img {
+        width: 60rem;
+        margin-right: 10rem;
+    }
+}
+
+
+@media(max-width:1200px) {
+    html {
+        font-size: 51%;
+    }
+
+    .graphelement {
+        width: 80%;
+    }
+
+
+    .primer-top {
+        width: 80%;
+    }
+
+    .primery-icons {
+        width: 80%;
+    }
+
+
+    .interiordesign-cards {
+        width: 80%;
+    }
+
+    .infocontent {
+        width: 80%;
+    }
+
+
+    .infoblock-top img{
+        width: 40rem;
+    }
+
+    .contactforma-podrobnosti {
+        width: 80%;
+    }
+
+    .podval {
+        width: 80%;
+    }
+
+}
+
+
+@media(max-width:1024px) {
+    html {
+        font-size: 46%;
+    }
+
+    .navbar-top div {
+        margin: 0 2rem;
+    }
+
+    .search-bar input {
+        width: 40rem;
+    }
+
+    .graphelement-mainzagolovok {
+        font-size: 4rem;
+    }
+
+    .interiordesign-cards {
+        width: 90%;
+    }
+
+
+}
+
+
+@media(max-width:768px) {
+    html {
+        font-size: 39%;
+    }
+
+    .mainlogo i {
+        font-size: 4rem;
+    }
+
+    .search-bar input {
+        width: 30rem;
+    }
+
+    .interiorprimer {
+        height: 75vh;
+        padding-top: 0;
+    }
+
+
+    .primery-icons div {
+        height: 18rem;
+    }
+
+
+    .primery-icons div img {
+        width: 5rem;
+    }
+
+
+    .primery-icons div span {
+        font-size: 1.8rem;
+    }
+
+    .primer-top img {
+        width: 30rem;
+    }
+
+
+    .interior-card {
+        width: 27rem;
+    }
+
+
+    .interior-card img {
+        width: 18rem;
+    }
+
+
+    .infocontent {
+        width: 90%;
+    }
+
+    .infoblock-top img {
+        width: 30rem;
+    }
+
+
+    .infoblock-zametki {
+        margin-top: 5rem;
+    }
+
+
+    .contactforma-podrobnosti {
+        width: 90%;
+    }
+
+
+    .podrobnosti-right input {
+        width: 30rem;
+    }
+
+    .podval {
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 600px) {
+    html {
+        width: 35%;
+    }
+
+    .mainlogo span {
+        font-size: 3rem;
+    }
+
+
+    .search-bar input {
+        width: 26rem;
+    }
+
+    .nav-list div {
+        width: 12rem;
+    }
+
+    .maincontent {
+        height: 75vh;
+    }
+
+    .graphelement-mainzagolovok {
+        width: 30rem;
+    }
+
+    .graphelement-btn {
+        width: 15rem;
+    }
+
+
+    .graphelement-btn-1 {
+        right: 22rem;
+    }
+
+    .interiorprimer {
+        height: 90vh;
+    }
+
+
+    .primer-top {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .primery-icons {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    .primery-icons div {
+        width: 16rem;
+        margin: 2rem;
+    }
+
+
+    .primery-icons div:last-child {
+        margin-right: 2rem;
+    }
+}
+
+
+@media(max-width: 450px) {
+    html {
+        font-size: 32%;
+    }
+
+
+    .mainlogo span {
+        display: none;
+    }
+
+    .interiordesign-top img {
+       width: 25rem;
+    }
+
+    .interiordesign-top h2 {
+        font-size: 3.5rem;
+        width: 25rem;
+    }
+
+
+    .podrobnosti-left h2 {
+        font-size: 1.8rem;
+    }
+
+
+    .podrobnosti-right input {
+        width: 25rem;
+    }
+}

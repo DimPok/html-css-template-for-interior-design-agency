@@ -1,0 +1,1 @@
+This template was made in HTML and CSS for an interior design agency. It is simple, stylish and responsive. If someone wants to use the template for their purposes, they can replace the images, titles and links in the template with their own. If there is such a need, you can add animated elements to the template
